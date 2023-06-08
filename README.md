@@ -12,7 +12,6 @@ Things you may want to cover:
 </div>
 
 * System dependencies
-<!-- TABLE OF CONTENTS -->
 
 * Configuration
 # 📗 Table of Contents
@@ -38,7 +37,6 @@ Things you may want to cover:
 - [📝 License](#license)
 
 * Database initialization
-<!-- PROJECT DESCRIPTION -->
 
 * How to run the test suite
 # 📖 [Blog App] <a name="about-project"></a>
@@ -73,17 +71,12 @@ Things you may want to cover:
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
-
-- **User can post.**
-- **User login**
-- **User can read, comment and like on other user post.**
+- **Setup and controllers.**
+- **Creating a data model.**
+- **Processing data in models.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -121,25 +114,24 @@ You can deploy this project using: **Not available**.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Author <a name="authors"></a>
 
 👤 **Shubham Bhoyar**
 
 - GitHub: [@QueenterJuma](https://github.com/QueenterJuma)
 
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[User Permissions]**
-- [ ] **[User Authentication]**
-- [ ] **[RESTFull API]**
+- [ ] **[Validations and Model specs.]**
+- [ ] **[Controllers specs.]**
+- [ ] **[Views.]**
+- [ ] **[Forms.]**
+- [ ] **[Integration specs for Views and fixing n+1 problems.]**
+- [ ] **[Add Devise.]**
+- [ ] **[Add authorization rules.]**
+- [ ] **[Add API endpoints.]**
+- [ ] **[API documentation.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -149,7 +141,6 @@ Feel free to check the [issues page](https://github.com/QueenterJuma/Blog-App/is
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -157,7 +148,6 @@ If you like this project give a ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -165,7 +155,6 @@ I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
@@ -175,7 +164,6 @@ I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
