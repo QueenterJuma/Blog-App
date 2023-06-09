@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Post, type: :model do
-  let(:post) {Post.create()}
+  let(:post) { Post.create() }
 
   context 'Testing with no inputs' do
     it 'should not be valid' do
@@ -24,7 +24,7 @@ RSpec.describe Post, type: :model do
   end
 
   context 'Testing with inputs' do
-    let(:user) {User.new(name: 'Tom', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', bio: 'New user')}
+    let(:user) { User.new(name: 'Tom', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', bio: 'New user') }
     subject { Post.new(author: user, title: 'Nature', text: 'I love this!') }
     before { subject.save }
 

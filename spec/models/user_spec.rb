@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe User, type: :model do
   context 'testing user with no values' do
-    subject {User.new()}
+    subject { User.new() }
     before { subject.save }
 
     it 'require user to have name' do
@@ -25,5 +25,5 @@ RSpec.describe User, type: :model do
     it 'posts counter should be equal to 0' do
       expect(user.posts_counter).to eq(0)
     end
-  end  
+  end
 end

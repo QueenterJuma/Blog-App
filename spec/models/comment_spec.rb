@@ -7,8 +7,8 @@ RSpec.describe Comment, type: :model do
   before { subject.save }
 
   context 'return updated comments counter' do
-      it 'increments the post\'s comments_counter on save' do
-        expect { subject.save }.to change { post.reload.comments_counter }.by(1)
-      end
+    it 'increments the post\'s comments_counter on save' do
+      expect { subject.save }.to change { post.reload.comments_counter }.by(1)
     end
+  end
 end
