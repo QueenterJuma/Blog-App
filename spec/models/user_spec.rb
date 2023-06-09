@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe User, type: :model do
   context 'testing user with no values' do
-    subject { User.new() }
+    subject { User.new }
     before { subject.save }
 
     it 'require user to have name' do

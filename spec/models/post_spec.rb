@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Post, type: :model do
-  let(:post) { Post.create() }
+  let(:post) { Post.create }
 
   context 'Testing with no inputs' do
     it 'should not be valid' do
