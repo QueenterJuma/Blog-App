@@ -75,6 +75,7 @@ Things you may want to cover:
 - **Setup and controllers.**
 - **Creating a data model.**
 - **Processing data in models.**
+- **Validations and Model specs.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +122,6 @@ You can deploy this project using: **Not available**.
 - GitHub: [@QueenterJuma](https://github.com/QueenterJuma)
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **[Validations and Model specs.]**
 - [ ] **[Controllers specs.]**
 - [ ] **[Views.]**
 - [ ] **[Forms.]**
