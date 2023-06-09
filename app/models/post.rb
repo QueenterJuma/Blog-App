@@ -1,11 +1,12 @@
 class Post < ApplicationRecord
   belongs_to :author, class_name: 'User'
-  has_many :comments, :likes
+  has_many :comment
+  has_many :like
 
   after_save :update_posts_counter
 
   def best_five_comments
-    commenst.order(created_at: :desc).limit(5)
+    comment.order(created_at: :desc).limit(5)
   end
 
   private
