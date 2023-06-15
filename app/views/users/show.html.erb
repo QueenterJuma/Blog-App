@@ -1,1 +1,15 @@
-<p>Details for a given users with post</p>
+<%= render 'linked/user', user: @user%>
+<div class='bio'><%=@user.bio%></div>
+<ul class='user-post-list'>
+<%if @user.best_three_posts.empty?%>
+<p class='no-posts'>No posts</p>
+<%else%>
+<%@user.best_three_posts.each do |post| %>
+<li>
+<%=render 'linked/post', post: post%>
+</li>
+<%end%>
+<%end%>
+</ul>
+<div class='content-view-all-post-btn'>
+<%= link_to "View all posts", user_posts_path(@user), class: 'view-all-post-btn' %></div>
