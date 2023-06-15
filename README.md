@@ -1,19 +1,3 @@
-# README
-<a name="readme-top"></a>
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-<div align="center">
-
-Things you may want to cover:
-  <h1><b>Blog App</b></h1>
-
-* Ruby version
-</div>
-
-* System dependencies
-
-* Configuration
 # 📗 Table of Contents
 
 * Database creation
