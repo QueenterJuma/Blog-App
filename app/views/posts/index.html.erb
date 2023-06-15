@@ -1,1 +1,13 @@
-<p>List of all posts and comment of a user</p>
+<%= render 'linked/user', user: @user%>
+<ul>
+<% if @posts.empty? %>
+  <p class='no-posts'>No posts</p>
+<% else %>
+<% @posts.each do |post|%>
+<li>
+  <%= render 'linked/post', post: post %>
+  <%= render 'linked/comment', comments: post.best_five_comments%>
+</li>
+<%end%>
+<%end%>
+</ul>

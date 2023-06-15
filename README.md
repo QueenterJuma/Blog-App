@@ -1,19 +1,3 @@
-# README
-<a name="readme-top"></a>
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-<div align="center">
-
-Things you may want to cover:
-  <h1><b>Blog App</b></h1>
-
-* Ruby version
-</div>
-
-* System dependencies
-
-* Configuration
 # 📗 Table of Contents
 
 * Database creation
@@ -76,6 +60,8 @@ Things you may want to cover:
 - **Creating a data model.**
 - **Processing data in models.**
 - **Validations and Model specs.**
+- **Controllers specs.**
+- **Views.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,13 +103,11 @@ You can deploy this project using: **Not available**.
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Shubham Bhoyar**
+👤 **Queenter Juma**
 
 - GitHub: [@QueenterJuma](https://github.com/QueenterJuma)
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **[Controllers specs.]**
-- [ ] **[Views.]**
 - [ ] **[Forms.]**
 - [ ] **[Integration specs for Views and fixing n+1 problems.]**
 - [ ] **[Add Devise.]**

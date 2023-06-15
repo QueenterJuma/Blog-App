@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 0;
+}
+
+@media all and (min-width: 768px) {
+  main {
+    width: 1100px;
+  }
+}
+
+.user-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3%;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.user-content-details {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  border: 1px solid black;
+}
+
+.user-content-details:hover {
+  background-color: rgb(89, 140, 242);
+}
+
+.user-post-total {
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.bio {
+  width: 100%;
+  border: 1px solid black;
+  padding: 2%;
+}
+
+.user-post-list {
+  margin-bottom: 3%;
+}
+
+.no-posts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  border: 1px solid black;
+  word-wrap: break-word;
+  gap: 1rem;
+  padding: 2%;
+}
+
+.content-view-all-post-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.view-all-post-btn {
+  padding: 5px 10px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px rgb(128, 74, 74);
+}
+
+.post-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  border: 1px solid black;
+  word-wrap: break-word;
+  gap: 1rem;
+  padding: 2%;
+}
+
+.post-content:hover {
+  background-color: rgb(89, 140, 242);
+}
+
+.post-total {
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.post-title {
+  display: flex;
+  align-items: center;
+}
+
+.post-count-best {
+  margin-left: auto;
+}
+
+.comment-content {
+  width: auto;
+  border: 1px solid black;
+  padding: 2%;
+}
