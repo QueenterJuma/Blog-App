@@ -1,1 +1,7 @@
-<p>The list of all users</p>
+<ul>
+<% @users.each do |user|%>
+<li>
+  <%= render 'linked/user', user: user%>
+</li>
+<% end %>
+</ul>
