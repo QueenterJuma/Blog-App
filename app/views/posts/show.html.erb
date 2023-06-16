@@ -4,5 +4,8 @@
   <div class='post-count-best'>Comments: <%=@post.comments_counter%>, Likes:<%=@post.likes_counter%></div>
   </div>
   <div><%=@post.text%></div>
+  <%=button_to "Like", post_likes_path(@post), method: :post, class: ['form-btn']%>
   <%= render 'linked/comment', comments: @post.best_five_comments%>
+  <%= render 'linked/comment_form', post: @post, comments: @comment%>
 </article>
+<%# , right-btn %>
