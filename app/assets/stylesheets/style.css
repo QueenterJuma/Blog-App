@@ -50,6 +50,10 @@ body {
   background-color: rgb(89, 140, 242);
 }
 
+.intro {
+  text-align: center;
+}
+
 .user-post-total {
   align-self: flex-end;
   margin-top: auto;
@@ -79,9 +83,11 @@ body {
 .content-view-all-post-btn {
   display: flex;
   justify-content: center;
+  margin-bottom: 3%;
 }
 
-.view-all-post-btn {
+.view-all-post-btn,
+.form-btn {
   padding: 5px 10px;
   border: 2px solid black;
   box-shadow: 4px 4px 4px rgb(128, 74, 74);
@@ -120,4 +126,45 @@ body {
   width: auto;
   border: 1px solid black;
   padding: 2%;
+}
+
+.form-c {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.field-label-c .field-c {
+  width: 15rem;
+  height: 2rem;
+}
+
+.form-btn {
+  background-color: rgb(47, 34, 148);
+}
+
+.form-btn:hover {
+  background-color: rgba(89, 140, 242);
+}
+
+.rid-btn {
+  float: right;
+}
+
+.form-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text-field-p {
+  width: 25rem;
+}
+
+.text-area-p {
+  width: 25rem;
+  height: 12rem;
 }
