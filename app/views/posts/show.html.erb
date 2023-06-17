@@ -6,5 +6,5 @@
   <div><%=@post.text%></div>
   <%=button_to "Like", post_likes_path(@post), method: :post, class: ['form-btn, rid-btn']%>
   <%= render 'linked/comment', comments: @post.best_five_comments%>
-  <%= render 'linked/comment_form', post: @post, comments: @comment%>
+  <%=link_to 'Add comment', new_post_comment_path(@post), class: ['add-comment-btn']%>
 </article>
