@@ -22,7 +22,9 @@ class PostsController < ApplicationController
       render :new, status: :unprocessable_entity
     end
   end
+
   private
+
   def post_param
     params.require(:post).permit(:title, :text)
   end
