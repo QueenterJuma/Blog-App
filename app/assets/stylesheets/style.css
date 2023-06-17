@@ -126,10 +126,28 @@ body {
   margin-left: auto;
 }
 
+.create-post-btn {
+  float: right;
+  padding: 5px 10px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px rgb(26, 24, 24);
+  background-color: #2f2294;
+  width: 100px;
+  margin: 10px 30px;
+}
+
 .comment-content {
   width: auto;
   border: 1px solid black;
   padding: 2%;
+}
+
+.add-comment-btn {
+  padding: 5px 10px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px rgb(26, 24, 24);
+  background-color: #2f2294;
+  width: 100px;
 }
 
 .form-c {
