@@ -1,3 +1,5 @@
+<h1 class='intro'>Powered By Ruby On Rails <%=@current_user.name%></h1>
+<div class='post-btn'><%= link_to "Create Post", new_post_path, class: 'create-post-btn' %></div>
 <ul>
 <% @users.each do |user|%>
 <li>

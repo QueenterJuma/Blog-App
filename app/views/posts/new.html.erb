@@ -1,0 +1,8 @@
+<%= form_with model:@post, html: { class: 'form-p'} do |form|%>
+<h1>Create Post</h1>
+<%=form.label :title%>
+<%=form.text_field :title, class: 'text-field-p'%>
+<%=form.label "Post"%>
+<%=form.text_area :text, class: 'text-area-p'%>
+<%=form.submit "Post", class: 'form-btn'%>
+<%end%>
