@@ -38,5 +38,16 @@ class UserPostsTest < ActionDispatch::IntegrationTest
     assert page.has_content?("Comments: #{@post.comments_length}")
   end
 
- 
+  test 'displays number of likes a post has' do
+    assert page.has_content?("Likes: #{@post.likes_length}")
+  end
+
+  test 'has a section pagination if there are more posts' do
+    assert page.has_css?('div.pagination')
+  end
+
+  test 'should redirect to the post details page' do
+    click_link_or_button 'view details', match: :first
+    assert_current_path user_post_path(@user, @post)
+  end
 end
