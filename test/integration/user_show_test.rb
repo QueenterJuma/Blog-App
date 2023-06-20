@@ -34,7 +34,7 @@ class UserShowTest < ActionDispatch::IntegrationTest
   end
 
   test 'redirect to post show page' do
-    click_link(@post.id.to_s, wait: 5, match: :first)
+    click_link(@post.title, wait: 5, match: :first)
     assert_current_path user_path(@user)
   end
 
