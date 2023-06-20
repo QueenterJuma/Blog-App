@@ -1,9 +1,9 @@
 <%= render 'linked/user', user: @user%>
 <ul>
-<% if @posts.empty? %>
+<% if @user.post.empty? %>
   <p class='no-posts'>No posts</p>
 <% else %>
-<% @posts.each do |post|%>
+<% @user.post.each do |post|%>
 <li>
   <%= render 'linked/post', post: post %>
   <%= render 'linked/comment', comments: post.best_five_comments%>
