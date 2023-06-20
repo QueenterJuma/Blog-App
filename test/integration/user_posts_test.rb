@@ -9,7 +9,7 @@ class UserPostsTest < ActionDispatch::IntegrationTest
   end
 
   test "displays user's profile picture" do
-    assert page.has_css?('div.image-placeholder')
+    assert page.has_css?("img[src='#{@user.photo}']")
   end
 
   test "display user's username" do
@@ -29,17 +29,17 @@ class UserPostsTest < ActionDispatch::IntegrationTest
   end
 
   test 'has first comments on a post' do
-    @post.recent_comments.each do |comment|
+    @post.best_five_comments.each do |comment|
       assert page.has_content?(comment.text)
     end
   end
 
   test 'displays number of comments a post has' do
-    assert page.has_content?("Comments: #{@post.comments_length}")
+    assert page.has_content?("Comments: #{@post.comments_counter}")
   end
 
   test 'displays number of likes a post has' do
-    assert page.has_content?("Likes: #{@post.likes_length}")
+    assert page.has_content?("Likes: #{@post.likes_counter}")
   end
 
   test 'has a section pagination if there are more posts' do
@@ -47,7 +47,7 @@ class UserPostsTest < ActionDispatch::IntegrationTest
   end
 
   test 'should redirect to the post details page' do
-    click_link_or_button 'view details', match: :first
+    click_link(@post.title, match: :first, class: 'post-content')
     assert_current_path user_post_path(@user, @post)
   end
 end

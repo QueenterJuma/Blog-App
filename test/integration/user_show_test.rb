@@ -34,8 +34,8 @@ class UserShowTest < ActionDispatch::IntegrationTest
   end
 
   test 'redirect to post show page' do
-    click_link(@post.title, wait: 5, match: :first)
-    assert_current_path user_path(@user)
+    click_link(@post.title, wait: 5, match: :first, class: 'post-content')
+    assert_current_path user_post_path(@user, @post)
   end
 
   test 'redirect user to user posts index when user click see all posts' do
