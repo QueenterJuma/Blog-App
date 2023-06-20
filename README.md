@@ -1,37 +1,41 @@
 # 📗 Table of Contents
 
-* Database creation
-- [📖 About the Project](#about-project)
+- Database creation
+
+* [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
+* [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+* [👥 Authors](#authors)
+* [🔭 Future Features](#future-features)
+* [🤝 Contributing](#contributing)
+* [⭐️ Show your support](#support)
+* [🙏 Acknowledgements](#acknowledgements)
+* [❓ FAQ (OPTIONAL)](#faq)
+* [📝 License](#license)
 
-* Database initialization
+- Database initialization
 
-* How to run the test suite
+- How to run the test suite
+
 # 📖 [Blog App] <a name="about-project"></a>
 
-* Services (job queues, cache servers, search engines, etc.)
-**[Blog App]** is a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
+- Services (job queues, cache servers, search engines, etc.)
+  **[Blog App]** is a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
 
-* Deployment instructions
+- Deployment instructions
+
 ## 🛠 Built With <a name="built-with"></a>
 
-* ...
+- ...
+
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
@@ -56,6 +60,7 @@
 </details>
 
 ### Key Features <a name="key-features"></a>
+
 - **Setup and controllers.**
 - **Creating a data model.**
 - **Processing data in models.**
@@ -93,7 +98,12 @@ This project does not require installation.
 
 ### Run tests
 
-To run tests, run the following command: **rspec**.
+To run tests, run the following command:
+
+```sh
+  rspec spec/*
+  ./bin/rails test:integration
+```
 
 ### Deployment
 
@@ -101,13 +111,20 @@ You can deploy this project using: **Not available**.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Queenter Juma**
 
 - GitHub: [@QueenterJuma](https://github.com/QueenterJuma)
 
+👤 **Stephen Addae**
+
+- GitHub: [@Stephen-Adom](https://github.com/Stephen-Adom)
+- Twitter: [@stephen_alaska](https://twitter.com/stephen_alaska)
+- LinkedIn: [Stephen Addae](https://www.linkedin.com/in/stephen-addae/)
+
 ## 🔭 Future Features <a name="future-features"></a>
+
 - [ ] **[Forms.]**
 - [ ] **[Integration specs for Views and fixing n+1 problems.]**
 - [ ] **[Add Devise.]**
@@ -125,20 +142,17 @@ Feel free to check the [issues page](https://github.com/QueenterJuma/Blog-App/is
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project give a ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
@@ -147,7 +161,6 @@ I would like to thank Microverse.
   - [It's MIT license, feel free to use as you like.]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
