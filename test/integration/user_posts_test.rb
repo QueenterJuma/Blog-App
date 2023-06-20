@@ -38,5 +38,5 @@ class UserPostsTest < ActionDispatch::IntegrationTest
     assert page.has_content?("Comments: #{@post.comments_length}")
   end
 
-  
+ 
 end
