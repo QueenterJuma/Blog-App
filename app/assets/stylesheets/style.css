@@ -1,218 +1,218 @@
 * {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 a {
-	text-decoration: none;
-	color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 body {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 0;
 }
 
 @media all and (min-width: 768px) {
-	main {
-		width: 1100px;
-	}
+  main {
+    width: 1100px;
+  }
 }
 
 .user-content {
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-	margin-bottom: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3%;
 }
 
 .profile {
-	width: 150px;
-	height: 150px;
-	border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
 }
 
 .user-content-details {
-	width: 70%;
-	display: flex;
-	flex-direction: column;
-	padding: 2%;
-	border: 1px solid black;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  border: 1px solid black;
 }
 
 .user-content-details:hover {
-	background-color: rgb(89, 140, 242);
+  background-color: rgb(89, 140, 242);
 }
 
 .intro {
-	text-align: center;
+  text-align: center;
 }
 
 .user-post-total {
-	align-self: flex-end;
-	margin-top: auto;
+  align-self: flex-end;
+  margin-top: auto;
 }
 
 .bio {
-	width: auto;
-	border: 1px solid black;
-	padding: 2%;
+  width: auto;
+  border: 1px solid black;
+  padding: 2%;
 }
 
 .user-post-list {
-	margin-bottom: 3%;
+  margin-bottom: 3%;
 }
 
 .no-posts {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	margin-top: 3%;
-	border: 1px solid black;
-	word-wrap: break-word;
-	gap: 1rem;
-	padding: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  border: 1px solid black;
+  word-wrap: break-word;
+  gap: 1rem;
+  padding: 2%;
 }
 
 .content-view-all-post-btn {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
 }
 
 .rid-btn {
-	float: right;
+  float: right;
 }
 
 .view-all-post-btn,
 .form-btn {
-	padding: 5px 10px;
-	border: 2px solid black;
-	box-shadow: 4px 4px 4px rgb(26, 24, 24);
+  padding: 5px 10px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px rgb(26, 24, 24);
 }
 
 .post-content {
-	width: auto;
-	display: flex;
-	flex-direction: column;
-	margin-top: 3%;
-	border: 1px solid black;
-	word-wrap: break-word;
-	gap: 1rem;
-	padding: 2%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  border: 1px solid black;
+  word-wrap: break-word;
+  gap: 1rem;
+  padding: 2%;
 }
 
 .post-content:hover {
-	background-color: rgb(89, 140, 242);
+  background-color: rgb(89, 140, 242);
 }
 
 .post-total {
-	align-self: flex-end;
-	margin-top: auto;
+  align-self: flex-end;
+  margin-top: auto;
 }
 
 .post-title {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .post-count-best {
-	margin-left: auto;
+  margin-left: auto;
 }
 
 .create-post-btn {
-	float: right;
-	padding: 5px 10px;
-	border: 2px solid black;
-	box-shadow: 4px 4px 4px rgb(26, 24, 24);
-	background-color: #2f2294;
-	width: 100px;
-	margin: 10px 30px;
+  float: right;
+  padding: 5px 10px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px rgb(26, 24, 24);
+  background-color: #2f2294;
+  width: 100px;
+  margin: 10px 30px;
 }
 
 .comment-content {
-	width: auto;
-	border: 1px solid black;
-	padding: 2%;
+  width: auto;
+  border: 1px solid black;
+  padding: 2%;
 }
 
 .add-comment-btn {
-	padding: 5px 10px;
-	border: 2px solid black;
-	box-shadow: 4px 4px 4px rgb(26, 24, 24);
-	background-color: #2f2294;
-	width: 100px;
+  padding: 5px 10px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px rgb(26, 24, 24);
+  background-color: #2f2294;
+  width: 100px;
 }
 
 .form-c {
-	display: flex;
-	flex-direction: column;
-	gap: 1rem;
-	align-items: center;
-	margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 3%;
 }
 
 .field-label-c .field-c {
-	width: 15rem;
-	height: 2rem;
+  width: 15rem;
+  height: 2rem;
 }
 
 .rid-btn,
 .form-btn {
-	background-color: #2f2294;
+  background-color: #2f2294;
 }
 
 .rid-btn.form-btn:hover {
-	background-color: rgba(89, 140, 242);
+  background-color: rgba(89, 140, 242);
 }
 
 .form-p {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .text-field-p {
-	width: 25rem;
+  width: 25rem;
 }
 
 .text-area-p {
-	width: 25rem;
-	height: 12rem;
+  width: 25rem;
+  height: 12rem;
 }
 
 #login-section form {
-	margin: 15px 0;
+  margin: 15px 0;
 }
 
 #login-section .field {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #login-section .field input {
-	width: 100%;
-	height: 35px;
+  width: 100%;
+  height: 35px;
 }
 
 #login-section .field input[type="checkbox"] {
-	width: max-content;
+  width: max-content;
 }
 
 #login-section form input[type="submit"] {
-	width: 100%;
-	padding: 10px;
-	font-size: 17px;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
 }
 
 #login-section .field.check-box {
-	display: flex;
-	align-items: center;
-	column-gap: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
