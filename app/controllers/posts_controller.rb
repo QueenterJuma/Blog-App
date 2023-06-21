@@ -23,6 +23,10 @@ class PostsController < ApplicationController
     end
   end
 
+  def destroy
+    puts params[:id]
+  end
+
   private
 
   def post_param
