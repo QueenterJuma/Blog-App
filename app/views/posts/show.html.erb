@@ -5,7 +5,7 @@
   </div>
   <div><%=@post.text%></div>
   <%=button_to "Like", post_likes_path(@post), method: :post, class: ['form-btn, rid-btn']%>
-  <%= render 'linked/comment', comments: @post.best_five_comments%>
+  <%= render 'linked/comment', post: @post, comments: @post.best_five_comments%>
   <%=link_to 'Add comment', new_post_comment_path(@post), class: ['add-comment-btn']%>
   <%=button_to "delete", user_post_path(@post.author, @post), method: :delete, class: ['add-comment-btn'] %> 
 </article>

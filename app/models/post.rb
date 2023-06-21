@@ -9,6 +9,8 @@ class Post < ApplicationRecord
 
   after_save :update_posts_counter
 
+  after_destroy :reduce_posts_counter
+
   def best_five_comments
     comment.order(created_at: :desc).limit(5)
   end
@@ -17,5 +19,9 @@ class Post < ApplicationRecord
 
   def update_posts_counter
     author.increment!(:posts_counter)
+  end
+
+  def reduce_posts_counter
+    author.decrement!(:posts_counter)
   end
 end

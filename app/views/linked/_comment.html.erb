@@ -1,6 +1,8 @@
 <ul class='comment-content'>
 <% comments.each do |comment|%>
-<li><%= comment.author.name%>: <%=comment.text%></li>
+<li><%= comment.author.name%>: <%=comment.text%>
+    <%=button_to "delete", post_comment_path(post, comment), method: :delete, class: ['add-comment-btn'] %> 
+</li>
 <%end%>
 <%= 'No comments' if comments.empty?%>
 </ul>
