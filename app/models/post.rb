@@ -10,7 +10,7 @@ class Post < ApplicationRecord
   after_save :update_posts_counter
 
   after_destroy :reduce_posts_counter
-  
+
   def best_five_comments
     comment.order(created_at: :desc).limit(5)
   end
