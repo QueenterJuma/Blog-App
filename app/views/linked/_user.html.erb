@@ -1,5 +1,5 @@
  <div class='user-content'>
- <%= image_tag user.photo, alt: "#{user.name} profile image", class: 'profile'%>
+ <%= image_tag user.photo ? user.photo : '', alt: "#{user.name} profile image", class: 'profile'%>
  <%= link_to user,class:'user-content-details', id:user.id do
  %>
  <h2><%= user.name %></h2>
